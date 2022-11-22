@@ -1,0 +1,33 @@
+											Q&A
+
+		1-How do I create a hidden file or folder? How do I display it in the CLI?
+
+with CLI, if we want to create a hidden file or folder we just need to put dot (.) at the beggining of the file or folder.
+
+For creating hidden file; (file name will be "hidden.txt")
+
+		touch .hidden.txt
+
+Now this txt file is hidden on CLI. when we list by using ls command to see our file/folder list, our command line window won't show us hidden file.
+
+		ls (the command which shows us to list of file/folders where we are currently located )
+
+But if we want to see hidden files in CLI, all we need to do is using ls-a or ls -al
+
+		ls -al (now we can see all files/folders where we are currently located)
+
+But i think this is not enough. Because if we check our file on windows we can see it. we can use attrib +h "......." command to hide it.
+
+		attrib +h ".hidden.txt"
+
+
+		2-How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+		To create multiple nested directories we use mkdir -p /this/is/good/exercise/.. command.
+
+
+		3-Write more than one command that will create a file that looks like the following (you are not allowed to use the newline character (\n)):
+
+			touch filename.txt
+			echo first message > filename.txt
+			echo second message >> filename.txt

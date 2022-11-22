@@ -1,0 +1,226 @@
+
+body{
+    
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-image: url("hacker.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.nav-ele{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20%;
+    padding-left: 20%; 
+
+ 
+
+}
+
+#logo{
+    font-family: monospace;
+    font-size: 35px;
+    color: rgb(41, 41, 223);
+    font-style: italic;
+    text-decoration: overline;
+    
+    
+
+}
+
+#logo:hover{
+    color: #dfe6e9;
+    transition: 1s;
+    transform-origin: left;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: rgb(41, 41, 223);
+    transition: 0.8s;
+    
+}
+
+.nav1:hover{
+    text-decoration: none;
+    color:#dfe6e9;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 25px;
+    text-decoration: overline;
+    
+
+}
+
+
+.container{
+    margin:auto;
+    width: 75%;
+    height: 90vh;
+    justify-content: center;
+
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+
+}
+
+.box{
+    width: 35%;
+    height: 35vh;
+    margin: 30px;
+    /* border: 2px solid red; */
+    padding: 10px;
+    /* background-image: url("box-pic.jpg"); */
+    background-color: #000707;
+    border-radius: 5%;
+    box-shadow: 3px 3px #dfe6e9;
+    opacity: 0.5;
+}
+
+.photo{
+    background-color: transparent;
+    border: none;
+    background-image: none;
+    box-shadow: none;
+    opacity: 1 ;
+}
+
+.photo img{
+    width: 80%;
+    height: 100%;
+    border-radius: 40%;
+   
+}
+
+p{
+    font-weight: bold;
+    line-height: 1.5em;
+    font-size: 15px;
+    color: #d31b1b;
+    opacity: 1;
+}
+
+h1{
+    color: #f3fff4;
+    opacity: 1;
+}
+
+h2{
+    color: 	#00FFFF;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.main  ul {
+    color: white;
+    font-size: 22px;
+    line-height: 1.8em;
+
+}
+
+#about{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: cursive;
+}
+
+#contact p{
+    text-align: right;
+    margin-right: 5%;
+    color: #dfe6e9;
+    font-size: 10px;
+}
+
+/* 
+
+i have tried a lot but can not figure it out :/
+@media (max width 800px){
+
+    #logo{
+        font-size: 20px;
+        color: rgb(41, 41, 223);
+        font-style: italic;
+    }
+
+    nav ul li {
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 20px;
+        font-size: 15px;
+    
+    }
+
+    .container{
+        margin:auto;
+        width: 75%;
+        height: 90%;
+        justify-content: center;
+    
+        
+    }
+
+    .box{
+        width: 35%;
+        height: 35%vh;
+        margin: 15px;
+        border: 2px solid red; 
+        padding: 10px;
+         background-image: url("box-pic.jpg"); 
+        background-color: #000707;
+        border-radius: 5%;
+        box-shadow: 3px 3px #dfe6e9;
+        opacity: 0.5;
+    }
+
+    p{
+        font-weight: bold;
+        line-height: 1em;
+        font-size: 12px;
+        color: #d31b1b;
+        opacity: 1;
+    }
+    
+    h1{
+        color: #03f924;
+        opacity: 1;
+    }
+    
+    h2{
+        color: 	#00FFFF;
+    }
+    
+    .main  ul {
+        color: white;
+        font-size: 14px;
+        line-height: 1em;
+    }
+
+} */
