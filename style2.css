@@ -14,7 +14,7 @@ body{
 
 }
 
-.nav-ele{
+.navigation{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
@@ -26,7 +26,7 @@ body{
 
 }
 
-#logo{
+.logo{
     font-family: monospace;
     font-size: 35px;
     color: rgb(41, 41, 223);
@@ -37,7 +37,7 @@ body{
 
 }
 
-#logo:hover{
+.logo:hover{
     color: #dfe6e9;
     transition: 1s;
     transform-origin: left;
@@ -54,7 +54,7 @@ a:hover{
     
 }
 
-.nav1:hover{
+.navigation-item:hover{
     text-decoration: none;
     color:#dfe6e9;
 }
@@ -145,14 +145,14 @@ ul{
 
 }
 
-#about{
+.about{
     width: 90%;
     margin: auto;
     text-align: center;
     font-family: cursive;
 }
 
-#contact p{
+.contact p{
     text-align: right;
     margin-right: 5%;
     color: #dfe6e9;
